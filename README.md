@@ -17,29 +17,29 @@ This container provides an environment with key libraries and tools for high-per
 
 To pull the latest version of the container:
 
-\```bash
+```
 singularity pull https://github.com/bjorgve/hpc-build-box/releases/download/0.0.2/bjorgve-hpc-build-box.build.sif
-\```
+```
 
 ## Usage
 
 ### Running CMake
 
-\```bash
+```
 ./bjorgve-hpc-build-box.build.sif cmake [options]
-\```
+```
 
 ### Compiling Code with Make
 
-\```bash
+```
 ./bjorgve-hpc-build-box.build.sif make [options]
-\```
+```
 
 ### Running Executables
 
-\```bash
+```
 ./bjorgve-hpc-build-box.build.sif ./executable [options]
-\```
+```
 
 ## Inside the Container
 
